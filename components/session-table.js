@@ -65,7 +65,7 @@ export default function SessionTable({ gymSessions }) {
                       {session.id}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                      {/* {person.email} */}
+                      {session.session_date}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                       {/* {person.role} */}
